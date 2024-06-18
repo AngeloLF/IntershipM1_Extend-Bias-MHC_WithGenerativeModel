@@ -17,5 +17,3 @@ for r in list_to_test:
 
 # Make rank plots
 make_graph(basedesc, list_to_test, case=case)
-
-#Towards an Undiased Compression of Language Models
