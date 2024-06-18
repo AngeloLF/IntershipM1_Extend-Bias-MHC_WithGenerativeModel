@@ -79,8 +79,6 @@ def make_graph(basedesc, list_to_test, base=f"./data_RESULT", case=f"hatecheck_b
 	plt.close()
 
 
-
-
 	for r, mf1, bt in zip(ranks, macf1, biasTotal):
 		plt.scatter(mf1, bt, color='r', marker='.')
 		plt.annotate(f"r={r}", xy=(mf1, bt), color='k', rotation=45,
